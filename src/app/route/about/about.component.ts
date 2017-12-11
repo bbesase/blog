@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { HeaderComponent } from './../../static/header.component';
+
 @Component({
   selector: 'aboutme',
   templateUrl: './about.component.html',
