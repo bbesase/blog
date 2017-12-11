@@ -11,7 +11,9 @@ import { APP_ROUTING } from './app.routing';
 import { AboutComponent } from './route/about/about.component';
 import { ContactComponent } from './route/contact/contact.component';
 import { HomeComponent } from './route/home/home.component';
+
 import { HeaderComponent } from './static/header.component';
+import { MenuComponent } from './static/menu/menu.component';
 
 @NgModule({
     imports: [
@@ -26,7 +28,8 @@ import { HeaderComponent } from './static/header.component';
         AppComponent,
         ContactComponent,
         HeaderComponent,
-        HomeComponent
+        HomeComponent,
+        MenuComponent
     ],
     bootstrap: [
         AppComponent
