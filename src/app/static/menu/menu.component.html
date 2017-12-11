@@ -1,0 +1,10 @@
+<sm-menu class="menu inverted grey">
+  <a routerLink="/{{item.route}}" sm-item *ngFor="let item of items" [icon]="item.icon">{{item?.title}}</a>
+
+  <sm-menu class="menu right secondary">
+      <a sm-item routerLink="/aboutme" 
+          image="http://semantic-ui.com/images/avatar/small/matt.jpg">
+            Brent Besase
+      </a>
+  </sm-menu>
+</sm-menu>
