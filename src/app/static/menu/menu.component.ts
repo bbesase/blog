@@ -22,6 +22,11 @@ export class MenuComponent implements OnInit {
       title: 'Contact',
       icon: 'at',
       route: 'contact'
+    },
+    {
+      title: 'Feed',
+      icon: 'feed',
+      route: 'feed'
     }
   ];
 

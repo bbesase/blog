@@ -11,6 +11,7 @@ import { APP_ROUTING } from './app.routing';
 import { AboutComponent } from './route/about/about.component';
 import { ContactComponent } from './route/contact/contact.component';
 import { HomeComponent } from './route/home/home.component';
+import { FeedComponent } from './route/feed/feed.component';
 
 import { HeaderComponent } from './static/header.component';
 import { MenuComponent } from './static/menu/menu.component';
@@ -27,6 +28,7 @@ import { MenuComponent } from './static/menu/menu.component';
         AboutComponent,
         AppComponent,
         ContactComponent,
+        FeedComponent,
         HeaderComponent,
         HomeComponent,
         MenuComponent
