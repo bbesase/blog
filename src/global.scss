@@ -1,0 +1,10 @@
+/**
+ * Global Application Styles
+ */
+
+@import "constants";
+
+body {
+	font-family: $primary-font;
+	font-size: $primary-font-size;
+}
