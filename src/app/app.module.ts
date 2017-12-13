@@ -10,11 +10,13 @@ import { APP_ROUTING } from './app.routing';
 
 import { AboutComponent } from './route/about/about.component';
 import { ContactComponent } from './route/contact/contact.component';
-import { HomeComponent } from './route/home/home.component';
 import { FeedComponent } from './route/feed/feed.component';
-
+import { HomeComponent } from './route/home/home.component';
 import { HeaderComponent } from './static/header.component';
+import { ItemComponent } from './common/item.component';
 import { MenuComponent } from './static/menu/menu.component';
+
+import { FeedService } from './route/feed/feed.service';
 
 @NgModule({
     imports: [
@@ -31,7 +33,11 @@ import { MenuComponent } from './static/menu/menu.component';
         FeedComponent,
         HeaderComponent,
         HomeComponent,
+        ItemComponent,
         MenuComponent
+    ],
+    providers: [
+        FeedService
     ],
     bootstrap: [
         AppComponent

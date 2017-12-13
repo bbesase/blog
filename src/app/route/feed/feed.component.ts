@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ItemComponent } from './../../common/item.component';
+
 @Component({
   selector: 'feed',
   templateUrl: './feed.component.html',
