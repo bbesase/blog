@@ -1,5 +1,5 @@
 <div class="ui items">
-  <div *ngFor="let post of posts" class="item">
+  <div *ngFor="let post of posts" class="item" routerLink="/feed/{{post.id}}">
     <div class="ui small image">
       <img src="https://semantic-ui.com/images/wireframe/image.png">
     </div>
