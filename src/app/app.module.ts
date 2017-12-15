@@ -15,6 +15,7 @@ import { HomeComponent } from './route/home/home.component';
 import { HeaderComponent } from './static/header.component';
 import { ItemComponent } from './common/item.component';
 import { MenuComponent } from './static/menu/menu.component';
+import { PostComponent } from './route/feed/post.component';
 
 import { FeedService } from './route/feed/feed.service';
 
@@ -34,7 +35,8 @@ import { FeedService } from './route/feed/feed.service';
         HeaderComponent,
         HomeComponent,
         ItemComponent,
-        MenuComponent
+        MenuComponent,
+        PostComponent
     ],
     providers: [
         FeedService

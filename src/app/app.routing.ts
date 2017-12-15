@@ -5,6 +5,7 @@ import { AboutComponent } from './route/about/about.component';
 import { ContactComponent } from './route/contact/contact.component';
 import { HomeComponent } from './route/home/home.component';
 import { FeedComponent } from './route/feed/feed.component';
+import { PostComponent } from './route/feed/post.component';
 
 export const APP_ROUTING: ModuleWithProviders = RouterModule.forRoot([
     {
@@ -22,5 +23,9 @@ export const APP_ROUTING: ModuleWithProviders = RouterModule.forRoot([
     {
         path: 'feed',
         component: FeedComponent
+    },
+    {
+        path: 'feed/:id',
+        component: PostComponent
     }
 ]);
